@@ -1,4 +1,6 @@
 Untitled7::Application.routes.draw do
+ # match "test" => "test#test", via: :get
+  get 'test' => 'test#test'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
