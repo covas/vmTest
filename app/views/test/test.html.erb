@@ -1,1 +1,12 @@
-<%= @colo %>
+all nodes query
+editado coleto 12              df
+<br/>
+<br/>
+<tbody>
+<%- @colo.each do |node| -%>
+    <tr>
+      <th><%= node[0]['data']%></th>
+    </tr>
+    </br>
+<%- end -%>
+</tbody>
