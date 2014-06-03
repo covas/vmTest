@@ -1,0 +1,66 @@
+/*http://www.w3schools.com/cssref/pr_class_visibility.asp*/
+*{
+	margin: 0px ; 
+	padding: 0px ; 
+}
+
+html, body {
+	width:  100%;
+	height: 100%;
+	margin: 0px;
+}
+body {
+	text-align: center ; 
+	background-image: url("../images/wBg1.png");
+  	background-position: 50% 50%;
+  	overflow:hidden; 
+}
+#big_wrapper {
+	/*	border: 1px solid black  ;*/	
+	position: relative ;
+	padding: 0px ; 
+	width:  100% ; 
+	height: 100% ;
+	margin-left:auto ; 
+	margin-right:auto  ;
+	text-align: left ; 
+	overflow: hidden ; 
+}
+
+.default { 
+/*	display: block ; */
+	position: absolute ; 
+}
+
+.bordered {
+	border: 1px solid black ; 
+}
+
+#playButton:hover , #progressCircle:hover , #trackBar:hover , #lControls_btn:hover, #sControls_btn:hover{
+ 	cursor:pointer;
+}
+
+
+#console {
+	visibility: hidden ;
+/*	opacity: 0; */
+	top:10% ;
+	width: 100px ; 
+	height :20px ;	
+}
+
+.controllerText {
+	color:#666666 ; 
+	opacity: .75;
+	text-align: center ;
+}
+
+
+/*test combo box*/
+    .ui-button { margin-left: -1px; }
+    .ui-button-icon-only .ui-button-text { padding: 0.35em; } 
+    .ui-autocomplete-input { margin: 0; padding: 0.48em 0 0.47em 0.45em; }
+
+.fontType {
+	font: 16px Helvetica ; 
+}

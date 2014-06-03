@@ -1,0 +1,134 @@
+#lowerControls {
+	top:95% ; 
+	border: 1px solid black ;
+	background-color: black ;
+	width: 100% ; 
+	height: 5% ;
+	background-image: url("../images/bg.png"); 
+}
+
+.lowerSongSeparator {
+	cursor:move ;
+	z-index: 12 ;	
+	height: 105% ;
+	position: absolute;
+	width :.2% ;
+	opacity:.8;  
+	background-color: #FFEB80 ;  
+/*	background-color: red ; */
+}
+
+.btn {
+	float:left;
+	height: 100% ; 
+	width: 16% ;
+	margin-left:2%;
+	margin-right:2% ; 
+}
+
+.btn2 {
+	float:left;
+	height: 100% ; 
+	width: 21% ;
+	margin-left:2%;
+	margin-right:2% ; 
+}
+
+#leftButtons {
+
+	float:left;
+	margin-left:.2%;
+	margin-right:.2%;
+/*	background-color: red ;*/
+	width:12%;
+	height:100%;
+	opacity: .4 ;
+}
+
+#rightButtons {
+	float:left;
+	opacity: .4 ;
+/*background-color:red;*/
+	width:8%;
+	margin-left:.4%;
+	margin-right:.6%;
+}
+
+#overviewBar{
+	opacity:1;
+	float:left;
+	margin-left:.2%;  
+	width:78% ; 
+	height: 100% ;
+	top:5%; 
+/*	background-color: gray ;*/
+	opacity: 1	 ;
+/*	margin-right: .5em;*/
+}
+
+.lControls_btn { 
+	height:100%;
+/*	margin-left:-2% ;
+	margin-right:-2% ;*/
+}
+
+.lControls_btn:hover{
+	cursor: pointer;
+}
+
+#overviewProgressBar{
+/*	border-radius:2em;*/
+	border: 1px solid gray;
+	background-color: #666666 ;
+	opacity:.3;
+	position:relative;
+	float:left;
+/*	top:32.5%;*/
+	left:.5% ;
+	height: 100% ;
+	width:99% ; 
+/*	text-align: center ; */
+	 
+}
+
+#zoomBar{
+	cursor: pointer ;
+/*	border-radius:2em;*/
+	position:absolute;
+	
+/*	top:25%;*/
+/*	top:-.1em;
+	left:-.1em;*/
+	
+	left:0%;	
+	height: 100% ;
+	width: 100% ;
+	border-color: red;	
+/*	border:.1em solid #403F3F; */
+	z-index:10;
+/*	text-align: center ; */
+/*	background-color: #00B462 ;*/
+	background-color: #005F3C;
+	background-color: #0D0C0C  ;
+/*	opacity: .4;*/
+}
+
+#overviewPCircle{ 
+	position:absolute;
+/*	opacity: .3;	*/
+	width:.5% ; 
+	height:100% ; 
+	background-color:#201E1E ;
+	left:0% ;
+	border-right: 2px solid black ; 
+	border-left: 1px solid black ;
+/*	border: black  1px solid;*/
+/*	border-radius: 100% ;*/
+	z-index: 11; 
+}
+
+#overviewPCircleImage{
+	position:absolute ; 
+}
+
+

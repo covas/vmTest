@@ -1,0 +1,4 @@
+en flash 
+	coinvert a movieclip 
+		brightness 100 
+		contrast 65

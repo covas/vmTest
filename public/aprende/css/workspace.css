@@ -1,0 +1,59 @@
+.treble { 
+	height:88%;
+	left: 54% ;
+	top:6% ;
+}
+
+.bass {
+	height:48%;
+	left:34% ;
+	top:26% ;
+}
+
+.bassSwap {
+	left: 54% ;
+	top:6% ;
+}
+.trebleSwap {
+	left:34% ;
+	top:26% ;
+}
+
+.trebleAction{
+	height:88%;
+	left: 53.9% ;
+/*	left: 65%;*/
+	top:9.6% ;
+	visibility: visible;
+}
+
+#loader {	
+left: 29.6%;
+top: 15%;
+z-index: 4;
+height: 70%;
+	
+}
+#logo {
+height: 7%;
+left: 90.5%;
+top: 92.5%;
+z-index: 5;
+width: 9.5%;
+}
+
+#workspace {
+/*	cursor: auto ;*/
+	overflow:hidden ;
+	top:5% ;
+	height: 90% ;
+	width:100% ;
+/*	background-color: red ;*/
+	position:absolute ;
+}
+
+.hiddenButton {
+	height: 0px; width: 0px; opacity: .0 ;
+}
+
+
