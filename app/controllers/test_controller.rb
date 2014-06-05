@@ -103,7 +103,7 @@ class TestController < ApplicationController
   end
 
   def cypher_request ( query )
-    @url_post = "http://ec2-54-187-169-247.us-west-2.compute.amazonaws.com:24789/db/data/cypher"
+    @url_post = "http://localhost:24789/db/data/cypher"
     auth = {:username => "newdb", :password => "gubWBXtzcii5nS5eJY6C"}
     @result= HTTParty.post(@url_post.to_s,
                            :body => query.to_json,
